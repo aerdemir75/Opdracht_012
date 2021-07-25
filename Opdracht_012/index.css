@@ -1,0 +1,63 @@
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.home a:hover {
+    color:lightblue;
+    font-weight: bold;
+}
+li.google a:active {
+    color: red;
+    font-style: italic;
+}
+li.lenovo a:visited {
+    color: yellow;
+}
+input:focus {
+    font-size: 20px;
+    color: green;
+}
+div.search-container {
+    padding: 14px;
+    width: 1000px;
+    text-align: right;
+}
+input:focus {
+    border: 5px aquamarine double;
+    border-radius: 10px;
+}
+nav {
+    background: darkblue;
+}
+.currentpage {
+    background-color: greenyellow;
+}
+.currentpage:hover {
+    background-color: hotpink;
+}
+.google:hover {
+    background-color: lightcyan;
+}
+.lenovo:hover {
+    background-color: maroon;
+}
+footer {
+    color: blue;
+}
+footer:hover {
+    color: crimson;
+    font-size: 25px;
+}
